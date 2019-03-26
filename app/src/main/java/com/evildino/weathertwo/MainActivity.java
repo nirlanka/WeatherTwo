@@ -51,13 +51,13 @@ public class MainActivity extends Activity {
                             double humidity = currently.getDouble("humidity");
 
                             final TextView txtTemperature = (TextView) findViewById(R.id.txtTemperature);
-                            txtTemperature.setText(Double.toString(temperature) + "℃");
+                            txtTemperature.setText((int) temperature + "℃");
 
                             final TextView txtWind = (TextView) findViewById(R.id.txtWind);
                             txtWind.setText(Double.toString(windSpeed));
 
                             final TextView txtPressure = (TextView) findViewById(R.id.txtPressure);
-                            txtPressure.setText(Double.toString(pressure));
+                            txtPressure.setText((int) pressure + "");
 
                             final TextView txtHumidity = (TextView) findViewById(R.id.txtHumidity);
                             txtHumidity.setText(Double.toString(humidity));
