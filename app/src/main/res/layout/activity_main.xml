@@ -28,7 +28,8 @@
         tools:layout_editor_absoluteY="195dp">
 
         <LinearLayout
-            android:layout_width="121dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
@@ -47,7 +48,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="121dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
@@ -66,7 +68,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="121dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
