@@ -16,13 +16,13 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/txtTemperature"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="60dp"
-                android:text="32℃"
+                android:text="..."
                 android:textAlignment="center"
                 android:textColor="#eeeeee"
                 android:textSize="90sp"
@@ -45,12 +45,12 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/txtWind"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
                         android:layout_marginStart="8dp"
-                        android:text="78"
+                        android:text="..."
                         android:textAlignment="center"
                         android:textColor="#eeeeee"
                         android:textSize="30sp"
@@ -59,7 +59,7 @@
                         tools:layout_editor_absoluteY="66dp" />
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textView1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -90,12 +90,12 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/txtPressure"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
                         android:layout_marginStart="8dp"
-                        android:text="52"
+                        android:text="..."
                         android:textAlignment="center"
                         android:textColor="#eeeeee"
                         android:textSize="30sp"
@@ -104,7 +104,7 @@
                         tools:layout_editor_absoluteY="66dp" />
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -134,12 +134,12 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/txtHumidity"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
                         android:layout_marginStart="8dp"
-                        android:text="89"
+                        android:text="..."
                         android:textAlignment="center"
                         android:textColor="#eeeeee"
                         android:textSize="30sp"
@@ -148,7 +148,7 @@
                         tools:layout_editor_absoluteY="66dp" />
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textView3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
